@@ -30,6 +30,6 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USER }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-        port: 22
+        port: 22002
         source: "dist/*"
         target: "/var/www/pbmailconnexion/pb_public"
